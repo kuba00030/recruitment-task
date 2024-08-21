@@ -1,0 +1,43 @@
+.month-table-cell {
+  vertical-align: top !important;
+  display: table-cell;
+  height: 150px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  border-right: 1px solid rgba(224, 224, 224, 1) !important;
+  font-weight: 400 !important;
+  user-select: none;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+.month-table-cell:focus {
+  background-color: rgb(212, 229, 252);
+}
+.current-month-table-cell {
+  color: rgba(0, 0, 0, 0.87);
+}
+.other-month-table-cell {
+  color: rgba(0, 0, 0, 0.38);
+}
+.month-table-cell:hover {
+  background-color: rgba(224, 224, 224, 1);
+}
+.cell-text {
+  text-align: center;
+  padding: 1em;
+  padding-top: 0.5em;
+}
+.cell-today {
+  margin-top: 0.33em;
+  width: 1.72em;
+  height: 1.72em;
+  line-height: 1.72;
+  text-align: center;
+  border-radius: 50%;
+  background: #1976d2;
+  color: #fff;
+  cursor: default;
+  margin-right: auto;
+  margin-left: auto;
+}

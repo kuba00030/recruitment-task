@@ -1,0 +1,10 @@
+.custom-date-picker {
+  margin-top: 15px !important;
+  width: 100%;
+}
+@media screen and (min-width: 571px) {
+  .custom-date-picker {
+    flex: 1;
+    width: auto;
+  }
+}
